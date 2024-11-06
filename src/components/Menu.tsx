@@ -118,7 +118,7 @@ const menuItems = [
 ];
 
 const Menu = () => {
-  return <div className="h-screen mt-4 text-sm pb-20" >
+  return <div className="mt-4 text-sm pb-20" >
     {menuItems.map((i) => (
       <div className="flex flex-col gap-2 pb-5" key={i.title}>
         <span className="hidden lg:block text-gray-400 font-light my-4">{i.title}</span>
@@ -128,7 +128,7 @@ const Menu = () => {
               <Link
                 href={j.href}
                 key={j.label}
-                className="flex justify-center items-center lg:justify-start gap-4 text-gray-500 py-2"
+                className="flex justify-center items-center lg:justify-start gap-4 text-gray-500 py-2 hover:bg-lamaSkyLight"
               >
                 <Image src={j.icon} alt="" width={20} height={20} />
                 <span className="hidden lg:block">{j.label}</span>
