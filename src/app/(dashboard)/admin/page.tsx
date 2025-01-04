@@ -9,7 +9,7 @@ import Announcements from '@/components/Announcements'
 
 function AdminPage() {
   return (
-    <div className="flex gap-4 p-4 flex-col md:flex-row">
+    <div className="flex gap-4 p-4 flex-col md:flex-row bg-gray-100">
       <div className='w-full md:w-2/3 flex flex-col gap-8'>
         <div className='w-full flex justify-between gap-4 flex-wrap' >
           <UserCard type="student" />

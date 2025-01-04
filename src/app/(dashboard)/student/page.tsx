@@ -7,7 +7,7 @@ function StudentPage() {
   return (
     <div className='flex gap-4 p-4 flex-col md:flex-row'>
       <div className="w-full xl:w-2/3 flex flex-col gap-8">
-        <div className="h-full p-4 bg-white rounded-md">
+        <div className="h-full p-4 rounded-md">
           <h1 className='text-xl font-semibold'>Schedule (4A)</h1>
           <BigCalendar/>
         </div>
