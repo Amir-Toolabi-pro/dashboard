@@ -1,8 +1,11 @@
 {
+  "homepage": "https://amir-toolabi-pro.github.io/dashboard",
   "name": "lama-dev-next-dashboard",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy":"next build",
+    "deploy":"gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -27,6 +30,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "gh-pages": "^4.0.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
