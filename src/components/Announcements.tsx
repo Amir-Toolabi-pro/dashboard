@@ -30,7 +30,7 @@ function Announcements() {
    </div>
    <div className="flex flex-col gap-4">
     {announData.map(data => (
-     <div className="p-3 odd:bg-lamaPurpleLight even:bg-lamaYellowLight">
+     <div key={data.id} className="p-3 odd:bg-lamaPurpleLight even:bg-lamaYellowLight">
       <div className="flex justify-between items-center">
        <h1 className='font-semibold'>{data.title}</h1>
        <span className="text-gray-400 text-xs bg-white">{data.date}</span>
